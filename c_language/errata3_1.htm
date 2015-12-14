@@ -83,6 +83,22 @@ p.a0, li.a0, div.a0
 	layout-grid-mode:char;
 	font-size:9.0pt;
 	font-family:"Times New Roman","serif";}
+p.a1, li.a1, div.a1
+	{mso-style-name:源程序;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:20.0pt;
+	margin-bottom:.0001pt;
+	line-height:14.0pt;
+	layout-grid-mode:char;
+	text-autospace:none;
+	border:none;
+	padding:0cm;
+	font-size:9.0pt;
+	font-family:"Courier New";
+	layout-grid-mode:line;
+	font-weight:bold;}
  /* Page Definitions */
  @page WordSection1
 	{size:841.9pt 595.3pt;
@@ -164,24 +180,108 @@ div.WordSection1
   <td width=135 valign=top style='width:101.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span lang=EN-US style='font-size:11.0pt;font-family:"Courier New"'>&nbsp;</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:宋体'>第</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Courier New"'>325</span><span
+  style='font-size:11.0pt;font-family:宋体'>页</span></p>
+  <p class=MsoNormal><span lang=EN-US style='font-size:11.0pt;font-family:"Courier New"'>11.2</span><span
+  style='font-size:11.0pt;font-family:宋体'>的程序</span></p>
   </td>
   <td width=290 valign=top style='width:217.35pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><b><span lang=EN-US style='font-size:11.0pt;font-family:
-  "Courier New"'>&nbsp;</span></b></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;line-height:13.0pt;border:none'><span
+  lang=EN-US style='font-size:10.5pt'>#include &lt;stdio.h&gt;</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;line-height:13.0pt;border:none'><span
+  lang=EN-US style='font-size:10.5pt'>int main()</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;line-height:13.0pt;border:none'><span
+  lang=EN-US style='font-size:10.5pt'>{ </span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;line-height:13.0pt;border:none'><span
+  lang=EN-US style='font-size:10.5pt'>&nbsp;&nbsp;&nbsp; int&nbsp; a[] =
+  {1,2,3,4,5};</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;line-height:13.0pt;border:none'><span
+  lang=EN-US style='font-size:10.5pt'>&nbsp;&nbsp;&nbsp; int&nbsp; *p = a;&nbsp; </span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;text-indent:21.1pt;line-height:13.0pt;
+  border:none'><span lang=EN-US style='font-size:10.5pt'>printf(&quot;%d,&quot;,*(++p));</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;text-indent:21.1pt;line-height:13.0pt;
+  border:none'><span lang=EN-US style='font-size:10.5pt'>printf(&quot;%d,&quot;,<span
+  style='background:yellow'> *(p)</span>++);</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;text-indent:21.1pt;line-height:13.0pt;
+  border:none'><span lang=EN-US style='font-size:10.5pt;background:yellow'>printf(&quot;%d,&quot;,*p);</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;text-indent:21.1pt;line-height:13.0pt;
+  border:none'><span lang=EN-US style='font-size:10.5pt'>printf(&quot;%d,&quot;,*p);</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;text-indent:21.1pt;line-height:13.0pt;
+  border:none'><span lang=EN-US style='font-size:10.5pt'>printf(&quot;%d,&quot;,*p--);</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;text-indent:21.1pt;line-height:13.0pt;
+  border:none'><span lang=EN-US style='font-size:10.5pt'>printf(&quot;%d,&quot;,--(*p));</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;text-indent:21.1pt;line-height:13.0pt;
+  border:none'><span lang=EN-US style='font-size:10.5pt'>printf(&quot;%d\n&quot;,*p);</span></p>
+  <p class=a1 style='margin-left:0cm;line-height:13.0pt;border:none'><span
+  lang=EN-US style='font-size:10.5pt'>&nbsp;&nbsp;&nbsp; return 0;</span></p>
+  <p class=MsoNormal><span lang=EN-US>}</span></p>
   </td>
   <td width=331 valign=top style='width:248.05pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='line-height:14.0pt'><b><span lang=EN-US
-  style='font-size:9.0pt;font-family:宋体'>&nbsp;</span></b></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;line-height:13.0pt;border:none'><span
+  lang=EN-US style='font-size:10.5pt'>#include &lt;stdio.h&gt;</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;line-height:13.0pt;border:none'><span
+  lang=EN-US style='font-size:10.5pt'>int main()</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;line-height:13.0pt;border:none'><span
+  lang=EN-US style='font-size:10.5pt'>{ </span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;line-height:13.0pt;border:none'><span
+  lang=EN-US style='font-size:10.5pt'>&nbsp;&nbsp;&nbsp; int&nbsp; a[] =
+  {1,2,3,4,5};</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;line-height:13.0pt;border:none'><span
+  lang=EN-US style='font-size:10.5pt'>&nbsp;&nbsp;&nbsp; int&nbsp; *p = a;&nbsp; </span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;text-indent:21.1pt;line-height:13.0pt;
+  border:none'><span lang=EN-US style='font-size:10.5pt;background:yellow'>printf(&quot;%d,&quot;,*p);</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;text-indent:21.1pt;line-height:13.0pt;
+  border:none'><span lang=EN-US style='font-size:10.5pt'>printf(&quot;%d,&quot;,*(++p));</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;text-indent:21.1pt;line-height:13.0pt;
+  border:none'><span lang=EN-US style='font-size:10.5pt'>printf(&quot;%d,&quot;,<span
+  style='background:yellow'>(*p)</span>++);</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;text-indent:21.1pt;line-height:13.0pt;
+  border:none'><span lang=EN-US style='font-size:10.5pt'>printf(&quot;%d,&quot;,*p);</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;text-indent:21.1pt;line-height:13.0pt;
+  border:none'><span lang=EN-US style='font-size:10.5pt'>printf(&quot;%d,&quot;,*p--);</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;text-indent:21.1pt;line-height:13.0pt;
+  border:none'><span lang=EN-US style='font-size:10.5pt'>printf(&quot;%d,&quot;,--(*p));</span></p>
+  <p class=a1 style='margin-top:0cm;margin-right:21.0pt;margin-bottom:0cm;
+  margin-left:0cm;margin-bottom:.0001pt;text-indent:21.1pt;line-height:13.0pt;
+  border:none'><span lang=EN-US style='font-size:10.5pt'>printf(&quot;%d\n&quot;,*p);</span></p>
+  <p class=a1 style='margin-left:0cm;line-height:13.0pt;border:none'><span
+  lang=EN-US style='font-size:10.5pt'>&nbsp;&nbsp;&nbsp; return 0;</span></p>
+  <p class=MsoNormal style='line-height:14.0pt'><span lang=EN-US>}</span></p>
   </td>
   <td width=180 valign=top style='width:134.7pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+  <p class=MsoNormal><span style='font-family:宋体'>原第</span><span lang=EN-US>8</span><span
+  style='font-family:宋体'>行语句调整到第</span><span lang=EN-US>6</span><span
+  style='font-family:宋体'>行语句之前</span></p>
   </td>
  </tr>
 </table>
